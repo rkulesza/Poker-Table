@@ -13,7 +13,7 @@ local.properties
 .externalToolBuilders/
 .launch
 .cproject
-.buildpath
+#.buildpath
 
 nbproject/private
 build/
