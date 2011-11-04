@@ -1,5 +1,5 @@
 # IDE Junk
-.classpath
+#.classpath
 bin/**
 tmp/**
 tmp/**/*
@@ -7,13 +7,13 @@ tmp/**/*
 *.bak
 *.swp
 *~.nib
-#local.properties
-#.settings
-#.loadpath
-#.externalToolBuilders/
-#.launch
-#.cproject
-#.buildpath
+local.properties
+.settings
+.loadpath
+.externalToolBuilders/
+.launch
+.cproject
+.buildpath
 
 nbproject/private
 build/
