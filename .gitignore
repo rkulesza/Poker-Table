@@ -41,7 +41,7 @@ nb-configuration.xml
 *.dmg
 *.gz
 *.iso
-*.jar
+#*.jar
 *.war
 *.ear
 *.rar
