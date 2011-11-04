@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poker Table</string>
+    <string name="hello">Hello</string>
+    <string name="chair_prompt">Select a chair</string>
+    <string-array name="chairs_array">
+		<item>Chair 1</item>
+		<item>Chair 2</item>
+		<item>Chair 3</item>
+		<item>Chair 4</item>
+	</string-array>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+layout/gamelayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/layoutmaster">
+
+<RelativeLayout
+    android:id="@+layout/botoesgamelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8px" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="220px"
+        android:layout_height="65px"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:padding="8px"
+        android:text="New Game"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name Of Table"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/et_newgame_nameOfTable"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="151dp"
+    android:layout_y="98dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Money"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_newgame_StartMoney"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="156dp"
+    android:layout_y="149dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Blind"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_newgame_smallBlindValue"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="167dp"
+    android:layout_y="200dp" >
+
+    <Button
+        android:id="@+id/bt_newgame_create"
+        android:layout_width="120px"
+        android:layout_height="60px"
+        android:text="Create"
+        android:color="#000000" />
+
+    <Button
+        android:id="@+id/bt_newgame_cancel"
+        android:layout_width="120px"
+        android:layout_height="60px"
+        android:text="Cancel"
+        android:color="#000000" />
+</LinearLayout>
+    
+</AbsoluteLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+layout/loginlayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/layoutmaster">
+>
+<RelativeLayout
+android:id="@+layout/camposloginlayout"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="8px"
+>
+</RelativeLayout>
+
+<EditText
+    android:id="@+id/et_login_login"
+    android:layout_width="220px"
+    android:layout_height="wrap_content"
+    android:layout_x="166dp"
+    android:layout_y="94dp" />
+
+<TextView
+    android:id="@+id/nomesenha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="122dp"
+    android:layout_y="103dp"
+    android:text="Senha"
+    android:textColor="@android:color/black" />
+
+<Button
+    android:id="@+button/buttonlogar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="260dp"
+    android:layout_y="148dp"
+    android:text="Login" />
+
+<Button
+    android:id="@+button/buttoncreateaccount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="140dp"
+    android:layout_y="148dp"
+    android:text="Create Account" />
+
+<EditText
+    android:id="@+id/camposenha"
+    android:layout_width="220px"
+    android:layout_height="wrap_content"
+    android:layout_x="162dp"
+    android:layout_y="43dp"
+    android:password="true" >
+
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/nomelogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="124dp"
+    android:layout_y="58dp"
+    android:text="Login"
+    android:textColor="@android:color/black" />
+
+</AbsoluteLayout>
